@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: pharmacy-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pharmacy_db
+    username: postgres
+    password: 123456
+
+server:
+  port: 8082
