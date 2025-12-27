@@ -1,0 +1,30 @@
+# ====================
+# Java / Spring Boot
+# ====================
+**/target/
+**/*.class
+**/*.log
+**/application.yml       # Ignore all real configs in microservices
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.iws
+*.ipr
+/out/
+
+# ====================
+# Node / Angular
+# ====================
+**/node_modules/
+**/dist/
+npm-debug.log
+yarn-error.log
+.env                    # Ignore any environment variables in front-end
+.angular/
+
+# ====================
+# OS files
+# ====================
+.DS_Store
+Thumbs.db
