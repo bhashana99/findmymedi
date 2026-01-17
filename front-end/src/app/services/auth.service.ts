@@ -5,15 +5,11 @@ import { environment } from '../../environments/environment';
   providedIn: 'root',
 })
 export class AuthService {
-
   login() {
-    window.location.assign (
-      `${environment.backendBaseUrl}/oauth2/authorization/wso2`);
+    window.location.assign(`${environment.backendBaseUrl}/oauth2/authorization/wso2`);
   }
 
-  register(){
-    window.location.assign(
-      `${environment.backendBaseUrl}/auth/register`);
+  register() {
+    window.location.assign(`${environment.backendBaseUrl}/auth/register`);
   }
-  
 }

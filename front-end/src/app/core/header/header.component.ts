@@ -7,18 +7,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
-export class HeaderComponent{
-
+export class HeaderComponent {
   isLoggedIn = false;
-  constructor(private authService:AuthService){}
+  constructor(private authService: AuthService) {}
 
-  login(){
+  login() {
     this.authService.login();
   }
 
-  register(){
+  register() {
     this.authService.register();
   }
- 
-
 }
