@@ -15,6 +15,10 @@ export class HeaderComponent{
   login(){
     this.authService.login();
   }
+
+  register(){
+    this.authService.register();
+  }
  
 
 }
